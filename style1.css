@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+
+header {
+    background-color: #062f4e;
+    height: 6rem;
+    display: flex;
+}
+
+footer {
+    background-color: #062f4e;
+    color: seashell;
+    text-align: center;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 1.5em;
+    padding-top: 2%;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-weight: 400;
+    color: gray;
+    padding-bottom: 10px;
+}
+
+span {
+    font-size: 0.75em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: black;
+}
+
+hr {
+    border: 1px solid rgb(168, 165, 165);
+    border-bottom: none;
+    margin: 4% 0;
+    width: 90%;
+}
+
+.box-container {
+    width: 20%;
+    margin: 1em auto;
+    background-color: rgb(255, 255, 254);
+    border: 2px solid red;
+    text-align: center;
+    color: #062f4e;
+}
+
+.container {
+    display: flex;
+    padding: 5%;
+}
+
+.container-news {
+    display: inline-grid;
+    padding: 2% 5%;
+}
+
+.top {
+    width: 100%;
+}
+
+.top ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    letter-spacing: 1px;
+
+}
+
+.btn {
+    background-color: rgb(22, 18, 18);
+    color: seashell;
+}
+
+.hr-line {
+    border: 1px solid black;
+    border-bottom: none;
+    width: 90%;
+    margin: auto;
+}
+
+.news-row {
+    width: 80%;
+    text-align: left;
+    line-height: 1.5;
+}
+
+.news-img {
+    width: 175px;
+    height: 175px;
+    float: left;
+    margin-right: 5%;
+}
+
+.btn-red {
+    background-color: #FF4848;
+    color: seashell;
+    margin-top: 1%;
+    padding: 10px 20px;
+}
+
+@media only screen and (max-width: 680px) {
+    
+    h1 {
+        font-size: 1em;
+    }
+    span {
+        font-size: 0.65em;
+    }
+
+    .box-container {
+        width: 40%;
+    }
+    .top ul {
+        flex-direction: column;
+        text-align: center;      
+    }
+    .news-img {
+        width: 100%;
+    }
+}
